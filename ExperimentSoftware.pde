@@ -31,17 +31,17 @@ PlayButton play;
 String load;
 
 // ====================================
-// SEGMENT 
+// SECTIONS 
 int clip;
 int index = 0;
 Random rgen = new Random();
 int[] notes;
 
-// Names for the blocks of stimuli to be used
+// Names for the "sections" or "blocks" of stimuli to be used
 String[] names = {"Piano, Low", "Piano, Mid", "Piano, High", "Mezzo-forte, Low", "Mezzo-forte, Mid", "Mezzo-forte, High", "Fortissimo, Low", "Fortissimo, Mid", "Fortissimo, High"};
 
 // This array is the order of the blocks (or "sections") to be used. 
-// Later, I shuffle them but they can be set in an order here
+// Later, I shuffle them so they are randomized but they can be set in an order here
 int[] sections = {0, 1, 2, 3, 4, 5, 6, 7, 8};
 
 int sectionIndex = 0; // Initial section
